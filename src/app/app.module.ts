@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ViewFriendsComponent } from './view-friends/view-friends.component';
 import { AddFriendsComponent } from './add-friends/add-friends.component';
 import { SearchComponent } from './search/search.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ViewFriendsComponent,
     AddFriendsComponent,
-    SearchComponent
+    SearchComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

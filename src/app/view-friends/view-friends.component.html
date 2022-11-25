@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-3 m-3">
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Name</th>
+                                <th>Friend's Name</th>
+                                <th>Friend's Nickname</th>
+                                <th>Describe Your Friend</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let i of list">
+                                <td>{{i._id}}</td>
+                                <td>{{i.name}}</td>
+                                <td>{{i.friendName}}</td>
+                                <td>{{i.friendNickName}}</td>
+                                <td>{{i.DescribeYourFriend}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

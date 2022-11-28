@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./add-friends.component.css']
 })
 export class AddFriendsComponent {
+  name = ""
+  friendName = ""
+  friendNickName = ""
+  DescribeYourFriend = ""
 
+  readValues = () => {
+    let data = { 
+    "name": this.name, 
+    "friendName": this.friendName, 
+    "friendNickName": this.friendNickName, 
+    "DescribeYourFriend": this.DescribeYourFriend };
+
+    console.log(data);
+  }
 }
